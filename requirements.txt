@@ -1,0 +1,2 @@
+laser-learning-environment>=1.211
+pytest>=8.3.3
