@@ -8,6 +8,7 @@ class ExitProblem(SearchProblem[WorldState]):
     """
 
     def is_goal_state(self, state: WorldState) -> bool:
+        # todo: implementation
         # if 
             # 1. the robot is on the exit cell
             # 2. the robot is alive
