@@ -47,10 +47,20 @@ class SearchNode:
 
 
 def dfs(problem: SearchProblem) -> Optional[Solution]:
+    # DFS should happend on the worldsates, I'll be traversing 
+    # all the states using DFS, and for each loop checking
+    # if we reached an end state:
+        # 1. Alive & exit cell
+        # 2. Dead
     raise NotImplementedError()
 
 
 def bfs(problem: SearchProblem) -> Optional[Solution]:
+    # BFS should happend on the worldsates, I'll be traversing 
+    # all the states using BFS, and for each loop checking
+    # if we reached an end state:
+        # 1. Alive & exit cell
+        # 2. Dead
     raise NotImplementedError()
 
 
