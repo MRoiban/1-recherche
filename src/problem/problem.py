@@ -28,7 +28,18 @@ class SearchProblem(ABC, Generic[S]):
 
         Note that if an agent dies, the game is over and there is no successor to that state.
         """
+        # 1. get_all_possible_actions for current state
+        # 2. loop over actions:
+            # 1. apply per iteration an action
+            # 2. add (state + action) in a tuple then append to list
+            # reset state to before action
+        # return list[tuple[state, action]]
         raise NotImplementedError()
 
     def heuristic(self, problem_state: S) -> float:
-        raise NotImplementedError()
+        # types:
+            # Manhattan distance
+            # Diagonal distance
+            # Euclidian distance
+            # constant
+        return 1
